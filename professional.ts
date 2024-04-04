@@ -27,5 +27,9 @@ export class Professional{
     public infoProf(): string{
         return (`Name: ${this.name}\nAge: ${this.age}\nWeight ${this.weight}\nHeight: ${this.height}\nRetired: ${this.isRetired}\nNationality: ${this.nationality}\nNumer of oscars: ${this.oscarsNumber}\nProfession: ${this.profession}\n`);
     }
+
+    public nameActor(): string{
+        return this.name;
+    }
 }
 

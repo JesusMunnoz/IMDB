@@ -9,7 +9,6 @@ let pf6: Professional = new Professional ("Leonardo DiCaprio", 49, 85, 1.70, fal
 let pf7: Professional = new Professional ("Margot Robbie", 33, 80, 1.83, false, "Australia", 0, "Actor");
 
 
-
 console.log(pf1.infoProf());
 console.log(pf2.infoProf());
 console.log(pf3.infoProf());
@@ -18,5 +17,6 @@ console.log(pf5.infoProf());
 console.log(pf6.infoProf());
 console.log(pf7.infoProf());
 
-
 console.log(pf1.name);
+
+console.log(pf1.nameActor());
