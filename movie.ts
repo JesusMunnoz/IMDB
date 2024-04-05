@@ -38,6 +38,11 @@ export class Movie{
         return `Title: ${this.title}\nRelease year: ${this.releaseYear}\nActors: ${this.actors}\nNationality: ${this.nationality}\nDirector: ${this.director}\nWriter: ${this.writer}\nLanguage: ${this.language}\nPlatform: ${this.platform}\nIs a MCU: ${this.isMCU}\nMain Character: ${this.mainCharacterName}\nProducer: ${this.producer}\nDistrubutor: ${this.distributor}\nGenre: ${this.genre}\n`
     }
 
+    public movieInfo(): any[]{
+        let arrMovieInf: any[] = [];
+        arrMovieInf.push(this.title, this.releaseYear, this.nationality, this.genre);
+        return arrMovieInf;
+    }
 }
 
 /*let pf1: Professional = new Professional ("Quentin Tarantino", 61, 85, 1.80, false, "United States", 2, "Actor/Director/Producer/Writer");

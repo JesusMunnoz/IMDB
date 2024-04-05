@@ -23,3 +23,5 @@ mv1.producer = "Quentin Tarantino";
 mv1.distributor = "Sony Pictures"
 
 console.log("\n" + mv1.infoMv());
+
+console.log("\n\n" + mv1.movieInfo());
