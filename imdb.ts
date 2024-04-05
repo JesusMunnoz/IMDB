@@ -1,13 +1,12 @@
 import { Movie } from "./movie";
-import { Professional } from "./professional";
 
 export class Imdb {
 
     // Atributo
-    public peliculas: Movie[]= [];
+    //public peliculas: Movie[]= [];
 
     //Constructor
-    constructor(peliculas: Movie[]){
+    constructor(public peliculas: Movie[]){
         this.peliculas = [];
     }
 
