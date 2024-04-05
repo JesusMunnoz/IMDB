@@ -38,21 +38,15 @@ export class Movie{
         return `Title: ${this.title}\nRelease year: ${this.releaseYear}\nActors: ${this.actors}\nNationality: ${this.nationality}\nDirector: ${this.director}\nWriter: ${this.writer}\nLanguage: ${this.language}\nPlatform: ${this.platform}\nIs a MCU: ${this.isMCU}\nMain Character: ${this.mainCharacterName}\nProducer: ${this.producer}\nDistrubutor: ${this.distributor}\nGenre: ${this.genre}\n`
     }
 
-    //public filmActors(Professional): string {
-        //return this.actors.push(Professional);
-    //}
 }
 
-let pf1: Professional = new Professional ("Quentin Tarantino", 61, 85, 1.80, false, "United States", 2, "Actor/Director/Producer/Writer");
+/*let pf1: Professional = new Professional ("Quentin Tarantino", 61, 85, 1.80, false, "United States", 2, "Actor/Director/Producer/Writer");
 let pf2: Professional = new Professional ("Brad Pitt", 61, 80, 1.80, false, "United States", 2, "Actor");
 let pf3: Professional = new Professional ("Leonardo DiCaprio", 49, 85, 1.70, false, "United States", 1, "Actor");
 let pf4: Professional = new Professional ("Margot Robbie", 33, 80, 1.83, false, "Australia", 0, "Actor");
 
 
-
 let mv1 : Movie = new Movie ("Once Upon a Time in Hollywood", 2019, "United States", "Comedy/Drama");
-
-//console.log(mv1.filmActors(pf1));
 
 mv1.actors = [pf1, pf2, pf3, pf4];
 mv1.director = pf1;
@@ -64,5 +58,4 @@ mv1.mainCharacterName = "Margot, Leonardo and Brad";
 mv1.producer = "Quentin Tarantino";
 mv1.distributor = "Sony Pictures"
 
-console.log(mv1.infoMv());
-console.log(pf1.nameActor());
+console.log("\n" + mv1.infoMv());*/

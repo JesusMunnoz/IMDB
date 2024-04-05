@@ -31,5 +31,10 @@ export class Professional{
     public nameActor(): string{
         return this.name;
     }
+    // No tener en cuenta
+    public actorInfo(): any[]{
+        let arrActorInf: any[] = [];
+        arrActorInf.push(this.name, this.age, this.weight, this.height, this.isRetired, this.nationality, this.oscarsNumber, this.profession);
+        return arrActorInf;
+    }
 }
-

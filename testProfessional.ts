@@ -20,3 +20,4 @@ console.log(pf7.infoProf());
 console.log(pf1.name);
 
 console.log(pf1.nameActor());
+console.log(pf1.actorInfo());
