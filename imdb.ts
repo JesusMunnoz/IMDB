@@ -26,4 +26,3 @@ let peliculas: Imdb = new Imdb();
 peliculas.agregarMovie(pelicula1);
 
 console.log(peliculas);
-
