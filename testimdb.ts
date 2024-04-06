@@ -32,5 +32,29 @@ let imdb : IMDB = new IMDB(peliculas);
 console.log(imdb.showInfoMovie());
 
 //ejercicio 6.1 - ¿Cual de las dos sería la correcta? ¿Tenemos alguna correcta?
+<<<<<<< HEAD
 console.log(JSON.stringify(peliculas));
 console.log(JSON.stringify(imdb));
+=======
+// console.log(JSON.stringify(peliculas));
+// console.log(JSON.stringify(imdb));
+
+const imdbStr = JSON.stringify(imdb);
+console.log(imdbStr);
+
+
+//const fs = require('node:fs')
+// const fs = require('node:fs/promises')
+// const { writeFile } = require('fs/promises');
+const fs = require("fs");
+//const path = require("path");
+
+fs.writeFile('./imdbBBDD.json', 'Guardo imdbStr \n método fs.writeFile', error => {
+    if (error)
+      console.log(error)
+    else
+      console.log('El archivo fue creado')
+  })
+  
+  console.log('comprobando subida')
+>>>>>>> ramaJudit
