@@ -53,3 +53,12 @@ fs.writeFile('./imdbBBDD.json', 'Guardo imdbStr \n método fs.writeFile', error 
   })
   
   console.log('comprobando subida')
+
+  fs.readFile('./imdbBBDD.json', (error, datos) => {
+    if (error)
+      console.log(error)
+    else
+      console.log(datos.toString())
+  })
+  
+  console.log('Lectura del archivo')
