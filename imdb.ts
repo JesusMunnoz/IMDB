@@ -1,4 +1,5 @@
 import { Movie } from "./movie";
+const fs = require("fs");
 
 export class IMDB{
     //Atributos 
@@ -16,6 +17,29 @@ export class IMDB{
             arrMovie.push(film.infoMv());
         }
         return arrMovie;
+    }
+
+    public escribirEnFicheroJSON(imdbJson: string){
+        let objImdb: IMDB= new IMDB(this.peliculas);
+        const imdbStr = JSON.stringify(objImdb);
+        fs.writeFile(imdbJson, imdbStr, error => {
+            if (error)
+              console.log(error)
+            else
+              console.log('El archivo fue creado')
+          })
+        
+    }
+
+    public obtenerInstanciaIMDB(imdbJson:string):void {
+        fs.readFile(imdbJson, (error, datos) => {
+            if (error)
+              console.log(error)
+            else
+              console.log(datos.toString())
+          })
+          
+          console.log('Lectura del archivo')
     }
 }
 
