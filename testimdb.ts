@@ -32,5 +32,8 @@ let imdb : IMDB = new IMDB(peliculas);
 console.log(imdb.showInfoMovie());
 
 //ejercicio 6.1 - ¿Cual de las dos sería la correcta? ¿Tenemos alguna correcta?
-console.log(JSON.stringify(peliculas));
-console.log(JSON.stringify(imdb));
+// console.log(JSON.stringify(peliculas));
+// console.log(JSON.stringify(imdb));
+
+const imdbStr = JSON.stringify(imdb);
+console.log(imdbStr);
