@@ -57,4 +57,16 @@ fs.writeFile('./imdbBBDD.json', 'Guardo imdbStr \n método fs.writeFile', error 
   })
   
   console.log('comprobando subida')
+<<<<<<< HEAD:testimdb2.ts
 >>>>>>> ramaJudit
+=======
+
+  fs.readFile('./imdbBBDD.json', (error, datos) => {
+    if (error)
+      console.log(error)
+    else
+      console.log(datos.toString())
+  })
+  
+  console.log('Lectura del archivo')
+>>>>>>> ramaJudit:testimdb.ts
