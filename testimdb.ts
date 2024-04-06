@@ -70,4 +70,5 @@ fs.writeFile('./imdbBBDD.json', 'Guardo imdbStr \n método fs.writeFile', error 
       return value;}
     })
 
+console.log(imdbObj);
 
