@@ -1,2 +1,1 @@
-Guardo imdbStr 
- método fs.writeFile
+{"peliculas":[{"title":"Once Upon a Time in Hollywood","releaseYear":2019,"nationality":"United States","genre":"Comedy/Drama","actors":[["juan","36","78","1.84","false","espanola","2","actor"]]}]}
